@@ -17,10 +17,11 @@ namespace DAY8LINES
             this.y2 = y2;
         }
 
-        public void Compare()
+        public double Compare()
         {
             double length = Math.Sqrt(Math.Pow((this.x2 - this.x1), 2) + Math.Pow((this.y2 - this.y1), 2));
             Console.WriteLine("Length of the line: " + length);
+            return length;
         }
     }
 }
