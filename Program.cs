@@ -31,11 +31,15 @@
 
             if (l1 == l2)
             {
-                Console.WriteLine("The two lines are equal in length");
+                Console.WriteLine("The lengths of Line 1 and Line 2 are equal.");
+            }
+            else if (l1 > l2)
+            {
+                Console.WriteLine("Line 1 is greater in length than line 2");
             }
             else
             {
-                Console.WriteLine("The two lines are unequal in length");
+                Console.WriteLine("Line 2 is greater in length than line 1");
             }
         }
     }
